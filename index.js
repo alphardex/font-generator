@@ -34,8 +34,8 @@ class FontGenerator {
   }
 }
 
-const text = "测测试文字";
-const src = "fonts/造字工房力黑体.otf";
+const text = "评选详情活动规则购买记录填写信息报名信息修改投票成功";
+const src = "fonts/字魂111号-金榜招牌体.ttf";
 const dest = "build";
 const isOtf = true;
 const generator = new FontGenerator({ text, src, dest, isOtf });
